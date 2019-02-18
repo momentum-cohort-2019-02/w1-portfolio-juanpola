@@ -10,12 +10,46 @@ body {
     color: #222;
     background: #f7f5f0;
 }
+.Résumé-title{
+    margin: 3%;
+    padding: 3%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+.experience{
+    margin: 7%;
+    /* padding: 2%; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    /* background-color: grey */
+}
+.job-history{
+    margin: 5%;
+    /* padding: 2%; */
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+}
+.Contact-info {
+    text-align: right;
+    font-family: Roboto, sans-serif;
+    color: rgb(34, 34, 34);
+    /* margin: 3%;
+    padding: 3%; */
+    background: rgb(247, 245, 240);
+    height: 40px;
+}
+
 header {
     text-align: center;
     background: url('images/background-image.jpg') no-repeat center ;
     background-size: cover;
     overflow: hidden;
-    padding-top: 60px;
+    padding-top: 22%;
     color: white;
   }
   
@@ -41,10 +75,21 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap;
     font-weight: 700;
     list-style-type: none;
     margin: 0 auto;
-    padding: 35px;
+    padding-top: 3%;
+    padding-bottom: none;
+    /* width: 740px;
+    height: 100px; */
+    /* padding: 35px; */
+}
+ul {
+    transition: all .5s
+}
+ul:hover{
+    color: blue;
 }
 .nav .name {
     display: none;
@@ -68,8 +113,46 @@ a {
     border-radius: 50%;
     border: 3px solid white;
 }
+.profile-image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    /* margin-top: 50px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
 header .profile-image:hover {
     transform: scale(1.3);
+}
+.profile-image:hover {
+    transform: scale(1.3);
+}
+.skills-box{
+    line-height: 20px;
+    margin: 5%;
+    /* padding: 2%; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f7f5f0;
+    
+}
+.programming-skills{
+    text-align: center;
+    margin: 7%;
+    line-height: 1%
+    
+}
+.skills-list  {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 3%; */
+    /* padding: 3%; */
+    text-align: center;
+    letter-spacing: 2px;
 }
 .box1 {
     /* margin: 30px; */
@@ -89,6 +172,28 @@ footer ul {
         margin: 0;
         padding: 0;
       }
+h2:hover {
+    transform: scale(1.1);
+}
+.Education{
+    /* display: flex; */
+    text-align: left;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    padding: 3%;
+    margin: 3%;
+    line-height: 3;
+}
+.edu-tag{
+    text-align: center;
+
+}
+.edu-tag:hover{
+    transform: scale(1.1);
+}
+/* .Employment-history{
+    text-align: left; */
+}
 /* 
 a.twitter {
         background-image: url(images/twitter.svg);
